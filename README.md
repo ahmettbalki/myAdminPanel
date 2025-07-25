@@ -22,27 +22,6 @@ This is a full-stack **Admin Panel** application built with **React** on the fro
 - Express.js
 - MongoDB
 
-- ## 📦 Project Structure
-
-myAdminPanel/
-├── backend/
-│ ├── server.js
-│ └── config/
-│ └── controllers/
-│ └── middleware/
-│ └── models/
-│ └── routes/
-├── frontend/
-│ ├── src/
-│ │ ├── components/
-│ │ ├── layouts/
-│ │ ├── pages/
-│ │ └── App.jsx
-│ ├── public/
-│ ├── index.html
-│ └── tailwind.config.js
-├── README.md
-
 ## 🔐 Authentication
 
 - Users register and login via JWT-based authentication.
@@ -52,15 +31,16 @@ myAdminPanel/
 
 ### Backend
 
-cd backend
-npm install
-npm run dev
+- cd server
+- npm install
+- npm run dev
 
 ###Frontend
 
-cd frontend
-npm install
-npm run dev
+- cd client
+- cd react
+- npm install
+- npm run dev
 
 ## 📸 Screenshots
 
